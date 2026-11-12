@@ -1,0 +1,14 @@
+{
+  "name": "postei-webhook",
+  "version": "0.1.0",
+  "description": "Webhook do WhatsApp Cloud API para o projeto Postei",
+  "main": "src/functions/*.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/storage-blob": "^12.17.0",
+    "heic-convert": "^2.1.0"
+  }
+}
